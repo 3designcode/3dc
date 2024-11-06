@@ -7,7 +7,11 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold">Coming Soon</h1>
         <p>We are designing and branding a new website.</p>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Button><a href="mailto:3designcode@gmail.com">Work With Us</a></Button>
+          <Button as="a" 
+                  href="mailto:yourworkemail@example.com?subject=Work with Us Inquiry"
+                  className="px-6 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-md">
+                    Work With Us
+          </Button>
         </div>
       </main>
       
