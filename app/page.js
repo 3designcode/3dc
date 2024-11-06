@@ -8,7 +8,7 @@ export default function Home() {
         <p>We are designing and branding a new website.</p>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <Button as="a" 
-                  href="mailto:yourworkemail@example.com?subject=Work with Us Inquiry"
+                  href="mailto:3designcode@gmail.com?subject=Work with Us"
                   className="px-6 py-3 text-white rounded-md">
                     Work With Us
           </Button>
